@@ -1,0 +1,16 @@
+E:\TCC\stresser\bin\Debug\net5.0\stresser.exe
+E:\TCC\stresser\bin\Debug\net5.0\stresser.deps.json
+E:\TCC\stresser\bin\Debug\net5.0\stresser.runtimeconfig.json
+E:\TCC\stresser\bin\Debug\net5.0\stresser.runtimeconfig.dev.json
+E:\TCC\stresser\bin\Debug\net5.0\stresser.dll
+E:\TCC\stresser\bin\Debug\net5.0\ref\stresser.dll
+E:\TCC\stresser\bin\Debug\net5.0\stresser.pdb
+E:\TCC\stresser\obj\Debug\net5.0\stresser.csproj.AssemblyReference.cache
+E:\TCC\stresser\obj\Debug\net5.0\stresser.GeneratedMSBuildEditorConfig.editorconfig
+E:\TCC\stresser\obj\Debug\net5.0\stresser.AssemblyInfoInputs.cache
+E:\TCC\stresser\obj\Debug\net5.0\stresser.AssemblyInfo.cs
+E:\TCC\stresser\obj\Debug\net5.0\stresser.csproj.CoreCompileInputs.cache
+E:\TCC\stresser\obj\Debug\net5.0\stresser.dll
+E:\TCC\stresser\obj\Debug\net5.0\ref\stresser.dll
+E:\TCC\stresser\obj\Debug\net5.0\stresser.pdb
+E:\TCC\stresser\obj\Debug\net5.0\stresser.genruntimeconfig.cache
