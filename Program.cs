@@ -93,7 +93,7 @@ namespace stresser
             var configCacheNoSql = new ConfigVO{
                 Attempt = 1,
                 TypeOfTest = TypeOfTest.CacheNoSql,
-                FileName = "./data/cache-sql-attempt-{0}.csv",
+                FileName = "./data/cache-no-sql-attempt-{0}.csv",
                 StressRequestURL = "http://localhost:9090/createAccountCacheNoSql",
                 DeleteRequestURL = "http://localhost:9090/deleteAllAccountCacheNoSql"
             };
