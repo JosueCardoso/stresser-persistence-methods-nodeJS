@@ -93,25 +93,25 @@ namespace stresser
             var configCacheNoSql = new ConfigVO{
                 Attempt = 1,
                 TypeOfTest = TypeOfTest.CacheNoSql,
-                FileName = "cache-no-sql-attempt-{0}.csv",
-                StressRequestURL = "",
-                DeleteRequestURL = ""
+                FileName = "./data/cache-sql-attempt-{0}.csv",
+                StressRequestURL = "http://localhost:9090/createAccountCacheNoSql",
+                DeleteRequestURL = "http://localhost:9090/deleteAllAccountCacheNoSql"
             };
 
             var configCacheSql = new ConfigVO{
                 Attempt = 1,
                 TypeOfTest = TypeOfTest.CacheSql,
-                FileName = "cache-sql-attempt-{0}.csv",
-                StressRequestURL = "",
-                DeleteRequestURL = ""
+                FileName = "./data/cache-sql-attempt-{0}.csv",
+                StressRequestURL = "http://localhost:9090/createAccountCacheSql",
+                DeleteRequestURL = "http://localhost:9090/deleteAllAccountCacheSql"
             };
 
             _config = new Dictionary<TypeOfTest, ConfigVO>
             {
                 { TypeOfTest.Sql, configSql },
                 { TypeOfTest.NoSql, configNoSql },
-                // { TypeOfTest.CacheSql, configCacheSql },
-                // { TypeOfTest.CacheNoSql, configCacheNoSql },
+                { TypeOfTest.CacheSql, configCacheSql },
+                { TypeOfTest.CacheNoSql, configCacheNoSql },
             };
         }
 
